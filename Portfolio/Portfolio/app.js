@@ -15,6 +15,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
+const nodemailer = require('nodemailer');
 const MongoClient = require('mongodb').MongoClient;
 const uri = "mongodb+srv://britt:unknownpassword@cluster0-vzczn.azure.mongodb.net/<dbname>?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true });
@@ -37,8 +38,10 @@ app.set('view engine', 'pug');
 //app.use(favicon(__dirname + '/public/favicon.ico'));
 app.use(logger('dev'));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
+
+//static folder
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
