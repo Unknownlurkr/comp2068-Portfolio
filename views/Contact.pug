@@ -1,0 +1,22 @@
+extends layout
+
+block content
+   include partials/header
+    form#contactForm
+      div
+        h2 Name
+        input(type='text' name='name')
+      div
+        h2 Email
+        input(type='text' name='email')
+      div
+        h2 Description
+        input(type='text' name='description')
+      div
+        h2 Phone Number
+        input(type='text' name='phone')
+      div
+        button#submit(type='Submit' value='Submit') Submit
+
+    include partials/footer
+

@@ -1,0 +1,2 @@
+C:\Users\bsamu\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.njsproj.CoreCompileInputs.cache
+C:\Users\bsamu\source\repos\Portfolio\Portfolio\bin\Microsoft.NodejsTools.WebRole.dll
