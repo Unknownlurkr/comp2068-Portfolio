@@ -22,3 +22,17 @@ READ.MD within the project files as well
 
 Read Portfolio.docx for more information 
 >>>>>>> a0b18b938a86f3a9714dbb74bce17e7d971d9587
+
+website link from heroku:
+
+https://portfoliocomp2068.herokuapp.com
+
+
+
+used two github accounts to test the deployment of the app:
+main github repo:
+https://github.com/Unknownlurkr/comp2068-Portfolio
+
+deploy test repo:
+https://github.com/Unknownlurkr/comp2068-protfolio
+
